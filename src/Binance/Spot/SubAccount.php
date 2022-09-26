@@ -45,7 +45,7 @@ trait SubAccount
      */
     public function subAccountList(array $options = [])
     {
-        return $this->signRequest('GET', '/sapi/v1/sub-account/list', $options);
+        return $this->signRequest('GET', '/sapi/v3/sub-account/list', $options);
     }
 
     /**
